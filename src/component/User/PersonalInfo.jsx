@@ -4,10 +4,9 @@ import { API } from '../../config/api';
 import {useQuery} from 'react-query';
 import { DataContext } from "../../context/dataContext";
 import React, {useContext, useState, useEffect} from 'react';
-import Form from 'react-bootstrap';
-import Button from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap';
 import { useMutation } from 'react-query';
-import Modal from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
 function PersonalInfo (){
     const {idUserLogin} = useContext(DataContext)
