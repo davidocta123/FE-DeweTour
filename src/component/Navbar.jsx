@@ -1,5 +1,4 @@
 import React, { useState, useContext} from 'react';
-import Container from 'react-bootstrap/container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/nav';
 import Navbar from 'react-bootstrap/navbar';
@@ -12,6 +11,7 @@ import { DataContext } from "../context/dataContext";
 import { useNavigate } from 'react-router-dom';
 import { API } from '../config/api';
 import {useQuery} from 'react-query';
+import { Container } from 'react-bootstrap';
 
 
 function Navbars() {
