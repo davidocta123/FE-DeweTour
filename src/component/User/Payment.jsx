@@ -4,7 +4,7 @@ import '../assets/Index.css'
 import {  useState, useEffect} from "react";
 import {useQuery} from 'react-query';
 import { API } from '../../config/api';
-import Modal from 'react-bootstrap/modal';
+import Modal from 'react-bootstrap';
 import jwtDecode from 'jwt-decode';
 import { useMutation } from 'react-query';
 import { useNavigate} from 'react-router-dom';

@@ -2,7 +2,7 @@
 import "../assets/Index.css";
 import FolderImage from "../img/FolderImg";
 import { useState } from "react";
-import Modal from 'react-bootstrap/modal';
+import Modal from 'react-bootstrap';
 import {useQuery} from 'react-query';
 import { API } from '../../config/api';
 

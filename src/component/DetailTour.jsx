@@ -6,10 +6,9 @@ import { useMutation } from 'react-query';
 import FolderImage from './img/FolderImg'
 import { useNavigate} from 'react-router-dom';
 import { DataContext } from "../context/dataContext";
-import Modal from 'react-bootstrap/modal';
+import { Modal, Form } from 'react-bootstrap';
 import {useQuery} from 'react-query';
 import { API } from '../config/api';
-import Form from 'react-bootstrap/Form';
 
 function FotoTour (){
     const {data: dataAllTrip}= useQuery("dataAllTripCache", async () => {
