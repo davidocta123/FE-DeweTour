@@ -1,13 +1,9 @@
-import Card from 'react-bootstrap/Card';
+import {Card, Container, CardGroup, Modal, Button } from 'react-bootstrap';
 import '../assets/Index.css';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Container from 'react-bootstrap/container';
 import { useNavigate } from 'react-router-dom';
 import {useQuery, useMutation} from 'react-query';
 import { API } from '../../config/api';
 import { useState } from 'react';
-import Modal from 'react-bootstrap/modal';
-import Button from 'react-bootstrap/Button';
 
 function IncomeTrip () {
     const [confirDelete, setConfirdelete] = useState(false)
