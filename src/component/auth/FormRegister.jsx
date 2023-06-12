@@ -43,7 +43,7 @@ function FormRegister({openLogin}) {
       formData.set('phone', formRegister.phone);
       formData.set('address', formRegister.address);
 
-      const response = await API.post('/register', formData, config);
+      const response = await API.post('register', formData, config);
 
       console.log("register success : ", response)
 
