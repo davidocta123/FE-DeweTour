@@ -1,17 +1,14 @@
 import React, { useState, useContext} from 'react';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Nav from 'react-bootstrap/nav';
-import Navbar from 'react-bootstrap/navbar';
+
 import FolderImage from './img/FolderImg';
 import './assets/Index.css'
-import Modal from 'react-bootstrap/modal';
 import FormLogin from '../component/auth/FormLogin';
 import FormRegister from '../component/auth/FormRegister';
 import { DataContext } from "../context/dataContext";
 import { useNavigate } from 'react-router-dom';
 import { API } from '../config/api';
 import {useQuery} from 'react-query';
-import { Container } from 'react-bootstrap';
+import { Container, NavDropdown, Nav, Navbar, Modal } from 'react-bootstrap';
 
 
 function Navbars() {
